@@ -1,0 +1,154 @@
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    height: 90px;
+    width: 100%;
+    border: 2px solid white;
+    background-color: #91DDCF;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    position: sticky;
+}
+
+ul>li {
+    display: inline-block;
+    color: black;
+    margin: 0px 20px 0px 0px;
+    font-size: 20px;
+}
+
+.logo>img {
+    border: 5px solid black;
+    height: 52px;
+    border-radius: 15px;
+    margin-left: 34px;
+    margin-right: 87px;
+
+}
+.logo>img:hover{
+    border: 5px solid red;
+
+}
+
+main {
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 500px;
+    border: 2px solid white;
+    /* background-color: #FEEE91; */
+    background-image:url("goran-ivos-J_ozkAK9sZ4-unsplash.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+   
+}
+
+footer {
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 100px;
+    width: 100%;
+    border: 2px solid white;
+    background-color: #4A4947;
+}
+
+li>a {
+    color: black;
+    text-decoration: none;
+    margin-left: 40px;
+}
+li>a:hover {
+    font-size: 25px;
+    color: red;
+}
+
+a>i {
+    font-size: 25px;
+}
+a>i:hover {
+    font-size: 25px;
+    color: red;
+}
+.links{
+    margin-right: 50px;
+    padding-top: 20px;
+}
+
+
+ /* Responsivnesh function css*/
+@media (max-width:1230px){
+    nav {
+        height: 77px;
+    }
+    .logo>img {
+        margin-right: 35px;
+    }
+    ul>li { 
+        margin: 0px 0px 0px 0px;
+        font-size:20px;
+    }
+    .links {
+        margin-right:0px;
+    }
+    li>a{
+        margin-left: 38px;
+    }
+    a>i{
+        font-size: 35px;
+    }
+    
+}
+@media (max-width:950px){
+     nav {
+        height: 62px;
+    }   
+    .logo>img {
+        border: 2px solid black;
+    height: 36px; 
+    margin-right: 0px;
+    }
+    ul>li { 
+        font-size:15px;
+    }
+    .links {
+        margin-right:0px;
+    } 
+    li>a {
+        margin-left: 29px;
+    }
+    a>i{
+        font-size: 25px;
+    }
+    
+}
+@media (max-width:730px){
+     nav {
+        height: 50px;
+    }  
+    li>a {
+        margin-left: 6px;
+        font-size: 15px;
+    } 
+    .logo>img {
+    border: 1.5px solid black;
+    height: 30px; 
+    margin-left: 12px;
+    }
+    ul>li { 
+        font-size:10px;
+    }
+    a>i{
+        font-size: 11px;
+    }
+    .insta{
+        display: none;
+    }
+}
